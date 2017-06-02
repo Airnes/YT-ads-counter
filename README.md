@@ -13,4 +13,4 @@ Tool telling you if ads were displayed on Youtube video
 
 ## Run
 1. cd to the project folder
-2. run `RECORD_TIME=S SOUND_OUTPUT='sound_output_device' cucumber` where S is time in seconds (default value is 60) and sound_output_device is Headphones (default)
+2. run `RECORD_TIME=S SOUND_OUTPUT='sound_output_device' cucumber --color --format pretty --format html --out report.html` where S is time in seconds (default value is 60) and sound_output_device is Headphones (default)
