@@ -3,8 +3,8 @@ Given /^I am on youtube\.com with adblock on$/ do
   puts 'We are going to watch videos with AdBlock On'
   handle = page.driver.find_window("Adblock Plus has been installed")
   page.driver.browser.switch_to.window(handle)
-  sleep 5
   visit('/')
+  sleep 5
 end
 
 Given /^I am on youtube\.com with adblock off/ do
